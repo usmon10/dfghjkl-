@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.div1 {
+    width: 125px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 8px;
+    display: flex;
+    gap: 3px;
+    padding-top: 4px;
+    margin-left: 15px;
+}
+
+.box1 {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+    margin-left: 5px;
+
+}
+
+.div2 {
+    width: 125px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding-top: 4px;
+    margin-left: 15px;
+}
+
+.box2 {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+    margin-left: 5px;
+
+}
+
+.div3 {
+    width: 125px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    padding-top: 4px;
+    margin-left: 15px;
+    justify-content:start;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.box3 {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+}
+
+.down {
+    margin-top: 25px;
+    margin-left: -110px;
+    background-color: orange;
+     width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+.div4{
+    width: 125px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    gap: 3px;
+    padding-top: 4px;
+    margin-left: 15px;
+}
+.bx4{
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+}
+.container2{
+    display: flex;
+    gap: 1px;
+    margin-left: -560px;
+    margin-top: 150px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+}
+.div5 {
+    width: 125px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 8px;
+    display: flex;
+    gap: 3px;
+    padding-top: 4px;
+    margin-left: 15px;
+}
+.bx5{
+     width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.box6{
+     width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.div6 {
+    width: 125px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 8px;
+    display: flex;
+    justify-content: end;
+    gap: 3px;
+    padding-top: 4px;
+    margin-left: 15px;
+}
+.div7 {
+    width: 125px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    padding-top: 4px;
+    margin-left: 15px;
+}
+.box7{
+     width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.div8 {
+    width: 125px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    gap: 3px;
+    padding-top: 4px;
+    margin-left: 15px;
+}
+.box8{
+     width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.container3{
+   display: flex;
+    gap: 1px;
+    margin-left: 485px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    justify-content: start;
+    align-items: end; 
+}
+.div9{
+    width: 125px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 8px;
+    display: flex;
+    justify-content: start;
+    gap: 3px;
+    padding-top: 4px;
+    margin-left: 15px
+}
+.box9{
+   width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+    margin-left: 5px;  
+}
+.div10{
+    width: 125px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 8px;
+    display: flex;
+    justify-content: start;
+    gap: 3px;
+    align-items: end;
+    margin-left: 15px
+}
+.box10{
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+    margin-left: 5px;  
+}
+.div11{
+    width: 125px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 8px;
+    display: flex;
+    justify-content: start;
+    gap: 3px;
+    align-items: center;
+    margin-left: 15px
+}
+.box11{
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+    margin-left: 5px;  
+}
+.div12 {
+    width: 125px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    gap: 3px;
+    padding-top: 4px;
+    margin-left: 15px;
+}
+.box12{
+     width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+    margin-left: 5px;
+}
